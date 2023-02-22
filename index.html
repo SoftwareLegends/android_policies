@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy:</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .main {
+        max-width: 80%;
+        padding-bottom: 5rem;
+      }
+
+      .header {
+        padding: 60px 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .header h1 {
+        margin: 0;
+        color: #434343;
+        font-family: "Lato", sans-serif;
+        font-variant: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+      }
+      .header p {
+        text-align: center;
+      }
+
+      ol > li > ul {
+        padding: 0 1.5rem;
+        list-style-type: disc;
+      }
+      ol > li > ul > li > ul {
+        list-style-type: circle;
+      }
+
+      ol li span {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+      }
+
+      ol > li {
+        margin-top: 2rem;
+      }
+    </style>
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- header -->
+      <div class="header">
+        <h1>Drive Test App Privacy Policy</h1>
+        <p>
+          Drive-Test ("the App") is provided by Gateway ICT Solutions ("the
+          Company"). This Privacy Policy describes how the App collects, uses,
+          and shares information from users.
+        </p>
+      </div>
+      <!-- body -->
+      <div class="body-info">
+        <ol type="1">
+          <li>
+            <span>Information Collected</span>
+            <p>The App collects the following types of information:</p>
+            <ul>
+              <li>
+                <span>Location data</span>
+                <ul class="location-items">
+                  <li>
+                    <p>
+                      <b>Foreground location </b>&#8211; the app uses location
+                      data to determine location latitude, longitude, and
+                      altitude. New measurement report is collected when
+                      location is changed with a predefined distance interval.
+                      Foreground location access is also needed in order for the
+                      app to read mobile network serving and neighbor cells
+                      measurements.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <b>Background location </b>&#8211; the app uses location
+                      in background to determine the correct location latitude,
+                      longitude, and altitude when the app is in background and
+                      the Network Test has been initiated by the user.
+                      Background location can be allowed by choosing "Allow all
+                      the time" at location access prompt. If background
+                      location is allowed the app will add the measurements
+                      while the app is in background in the same way as if app
+                      is in foreground. If background location is not allowed
+                      the drive run cannot be started.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>User Data</span>
+                <p>
+                  The app collects user information only when the user starts
+                  the Network Test &#8211; Measurement capabilities by pressing
+                  the button [Start]. This information is used for checking the
+                  quality of our network in a specific location (or region) and
+                  is stored securely in our databases. The collected information
+                  contains information about:
+                </p>
+                <ul>
+                  <li>Fine location of the user (employee).</li>
+                  <li>Mobile serving cell parameters.</li>
+                  <li>Mobile neighbor cells parameters.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>Information Use</span>
+            <p>
+              The information collected by the App is used to provide the core
+              functionality of sending network parameters and location reports.
+              The information is not used for any other purpose.
+            </p>
+          </li>
+          <li>
+            <span>Information Sharing</span>
+            <p>
+              The information collected by the App is not shared with any third
+              parties.
+            </p>
+          </li>
+          <li>
+            <span>App permissions</span>
+            <p>The app uses following permissions:</p>
+            <ul>
+              <li>
+                <b>Location </b> &#8211; to have access to the device location
+                and to be able to measure mobile serving and neighbor cells
+                while the drive test is started.
+              </li>
+              <li>
+                <b>Read phone state </b> &#8211; to read phone state, including
+                the current cellular network information.
+              </li>
+              <li>
+                <b>Send Notifications </b> &#8211; to show the progress of the
+                Newtork Test in the Notifications Panel.
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
